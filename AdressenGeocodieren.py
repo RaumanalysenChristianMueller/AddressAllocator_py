@@ -46,7 +46,7 @@ class allocateAddresses(QgsProcessingAlgorithm):
         self.addParameter(
             QgsProcessingParameterFeatureSource(
                 self.inputTab,
-                self.tr('Zu geocodierende Adressen als CSV'),
+                self.tr('Zu geocodierende Adressen als Tabelle'),
                 [QgsProcessing.TypeFile]
             )
         )
